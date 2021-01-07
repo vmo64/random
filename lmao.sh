@@ -1,5 +1,5 @@
-sudo apt install lolcat           
-sudo apt install tree    
+apt install lolcat           
+apt install tree    
 cd ..                                                                                                                                                                                                
 cd ..                                                                                                                                                                                                
 cd ..                                                                                                                                                                                                
