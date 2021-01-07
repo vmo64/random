@@ -7,4 +7,4 @@ Lmao is a small script that runs tree command with a lolcat argument making it l
 
 Try it! (Debian only)
 
-sudo bash <(curl -Ss https://raw.githubusercontent.com/vmo64/random/main/lmao)
+bash <(curl -Ss https://raw.githubusercontent.com/vmo64/random/main/lmao)
