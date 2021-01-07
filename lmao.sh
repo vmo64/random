@@ -1,4 +1,5 @@
-apt install lolcat                                                                                                                                                                                   
+sudo su -
+sudo apt install lolcat                                                                                                                                                                                   
 cd ..                                                                                                                                                                                                
 cd ..                                                                                                                                                                                                
 cd ..                                                                                                                                                                                                
