@@ -1,10 +1,7 @@
-apt install lolcat           
-apt install tree    
-cd ..                                                                                                                                                                                                
-cd ..                                                                                                                                                                                                
-cd ..                                                                                                                                                                                                
-cd ..                                                                                                                                                                                                
-cd ..                                                                                                                                                                                                
-cd ..                                                                                                                                                                                                
-cd ..                                                                                                                                                                                                
-tree | lolcat
+if [ $(whoami) = 'root' ]; then
+    apt install -y lolcat tree > /dev/null 2>&1
+    cd /
+    tree | lolcat
+else
+    output "Please run this command as root."
+fi
